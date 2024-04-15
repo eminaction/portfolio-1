@@ -1,0 +1,23 @@
+header {
+  margin-top: 310px;
+  margin-bottom: 310px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+#blue {
+  color: #4285f4;
+}
+
+#red {
+  color: #ea4335;
+}
+#yellow {
+  color: #fbbc04;
+}
+#green {
+  color: #34a853;
+}

@@ -1,0 +1,14 @@
+.card img {
+  width: 400px;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+  height: 300px;
+}
+.card p {
+  max-width: 300px;
+  margin-top: 20px;
+}
+.card h3 {
+  margin-top: 20px;
+}

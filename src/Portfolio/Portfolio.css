@@ -1,0 +1,16 @@
+.portfolio {
+  padding-top: 90px;
+  max-width: 100%;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+.portfolio .heading {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.cards-only {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,10 @@
+.joke-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-joke,
+.loading,
+.failed-load {
+  margin-top: 50px;
+}
