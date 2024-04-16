@@ -3,6 +3,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+a :hover {
+  cursor: pointer;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

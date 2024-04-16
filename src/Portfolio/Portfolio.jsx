@@ -41,10 +41,21 @@ export default function Portfolio() {
         </div>
         <div className="current-project">
           <div className="sub-heading">
-            <h3>PROJECT IN PROGRESS</h3>
-            <p>Here is my current project</p>
+            <h3>PROJECT IN PROGRESS ...</h3>
+            <p>
+              I counter balance my love of health and fitness, with a passion
+              for baking. There is nothing better than a freshly made cake or
+              brownies, so why not create an app designated to one of my
+              favourite hobbies. <br />
+              <br />
+              Introducing The Plant Bakery Co. An all plant-based cookbook of
+              all my favorutie sweet recipes! This app is made using wireframing
+              and prototyping from Figma, and using Next.js.
+            </p>
           </div>
-          <video></video>
+          <div className="current-image">
+            <img src="/recipes-app2.png" />
+          </div>
         </div>
       </div>
     </>

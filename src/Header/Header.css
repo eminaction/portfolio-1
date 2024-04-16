@@ -1,6 +1,7 @@
 header {
   margin-top: 310px;
   margin-bottom: 310px;
+  max-width: 100%;
 }
 
 header h1 {
@@ -20,4 +21,9 @@ header h1 {
 }
 #green {
   color: #34a853;
+}
+@media screen and (max-width: 430px) {
+  .main-header h1 {
+    font-size: 70px;
+  }
 }
