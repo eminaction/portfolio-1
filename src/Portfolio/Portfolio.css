@@ -64,6 +64,7 @@
     text-align: center;
   }
   .current-image img {
+    max-width: 50%;
     width: 400px;
     margin-top: 30px;
   }
