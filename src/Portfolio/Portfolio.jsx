@@ -41,7 +41,7 @@ export default function Portfolio() {
         </div>
         <div className="current-project">
           <div className="sub-heading">
-            <h1>PROJECT IN PROGRESS</h1>
+            <h3>PROJECT IN PROGRESS</h3>
             <p>Here is my current project</p>
           </div>
           <video></video>
