@@ -45,7 +45,10 @@ export default function Joke() {
             Tell me a <br /> Joke
           </button>
 
-          <a href="https://www.linkedin.com/feed/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/emma-nolan-010995179"
+            target="_blank"
+          >
             <button>I&apos;m Feeling Lucky</button>
           </a>
         </div>
