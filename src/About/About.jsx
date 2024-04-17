@@ -21,6 +21,7 @@ export default function About() {
                 my career journey, I am earnestly committed to expanding my
                 skills and evolving as a developer.
                 <br />
+                <br />
                 Previously I worked for an online nutritional supplement
                 retailer, where I first expereinced working with websites - both
                 back-end and front-end. This is where my passion for developing
