@@ -41,7 +41,10 @@ export default function Experience() {
                 </div>
               </div>
             </div>
-            <a>
+            <a
+              href="https://drive.google.com/file/d/16dD64fhPQtFD08ojThljao7nDVt9Ez8V/view?usp=sharing"
+              target="_blank"
+            >
               <button className="cv-button">SEE CV</button>
             </a>
           </div>
@@ -63,6 +66,7 @@ export default function Experience() {
                 <span>Git</span>
                 <span>Node.js</span>
                 <span>SQL</span>
+                <span>Typescript</span>
                 {/* <p>HTML</p>
                 <p>CSS</p>
                 <p>Next.js</p> */}

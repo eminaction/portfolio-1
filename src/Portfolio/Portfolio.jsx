@@ -4,21 +4,23 @@ import Card from "../Card/Card";
 const cardData = [
   {
     id: 0,
-    imageSource: "/Screenshot 2024-02-27 at 16.13.58.png",
-    header: "Weather App",
-    text: "Call a weather API and use the fetched data to display the weather in London, incuding the current temperature, sunset and sunrise times and the weather throughout the day.",
+    href: "",
+    imageSource: "/weather-app.png",
+    header: "Weather Wizard",
+    text: "Weather Wizard is an innovative app built with TypeScript and React that offers a seamless way for users to stay informed about the weather in any city. Users can easily input the name of a city, and the app will fetch current weather data from a reliable API to provide up-to-date information on temperature, humidity, and weather conditions. The user-friendly interface allows people to quickly access the information they need. Additionally, the app includes a feature for sharing weather updates with friends, making it easy to keep others in the loop about the current weather in their area.",
   },
   {
     id: 0,
+    href: "https://www.carterselectricalservices.co.uk/",
     imageSource: "/Screenshot 2024-03-06 at 18.36.16.png",
     header: "Drag & Drop Website",
-    text: 'Call us and book in a "Design Consultation" on a date and time to suit you.',
+    text: "A website created with a strong emphasis on user experience and user interface, crafted using a drag-and-drop service. This intuitive tool enabled me to build a visually appealing and highly functional site tailored to my client's specific needs. The website's design prioritises ease of navigation, ensuring users can find the information they seek without difficulty. By incorporating engaging elements and thoughtful layouts, the website delivers a seamless and enjoyable experience.",
   },
   {
     id: 0,
     imageSource: "/Screenshot 2024-03-25 at 15.58.33.png",
     header: "Responsive Webpage using Next.js",
-    text: 'Call us and book in a "Design Consultation" on a date and time to suit you.',
+    text: "The webpage my team and I created for a fireplace company leverages Next.js to offer a seamless and engaging user experience.The webpage was designed with a modern aesthetic to draw in the customer. Visitors can easily read customer reviews, using an api, to learn more about the company's reputation and product quality. We also integrated a user-friendly booking form, making it simple for potential customers to schedule a consultation with just a few clicks.",
   },
 ];
 
@@ -33,6 +35,7 @@ export default function Portfolio() {
           {cardData.map((eachItem) => (
             <Card
               key={eachItem.id}
+              href={eachItem.href}
               imageSource={eachItem.imageSource}
               header={eachItem.header}
               text={eachItem.text}
@@ -42,6 +45,8 @@ export default function Portfolio() {
         <div className="current-project">
           <div className="sub-heading">
             <h3>PROJECT IN PROGRESS ...</h3>
+            <br />
+            <h3>The Plant Bakery Co.</h3>
             <p>
               I counter balance my love of health and fitness, with a passion
               for baking. There is nothing better than a freshly made cake or
@@ -54,7 +59,12 @@ export default function Portfolio() {
             </p>
           </div>
           <div className="current-image">
-            <img src="/recipes-app2.png" />
+            <a
+              href="https://www.figma.com/file/VS2i7xyTqiYhfv55VDLADe/Recipes-App?type=design&node-id=1147%3A8272&mode=design&t=x3kddYYQ8Xlt6jP0-1"
+              target="_blank"
+            >
+              <img src="/recipes-app2.png" />
+            </a>
           </div>
         </div>
       </div>
