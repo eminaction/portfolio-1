@@ -6,19 +6,24 @@ export default function Header() {
     <>
       <header>
         <div className="main-header">
-          <h1>
-            <span id="blue">C</span>
-            <span id="red">o</span>
-            <span id="yellow">d</span>
-            <span id="blue">e</span>
-            <span id="green">o</span>
-            <span id="red">o</span>
-            <span id="blue">g</span>
-            <span id="yellow">l</span>
-            <span id="green">e</span>
-          </h1>
+          <div>
+            <h1>
+              <span id="blue">C</span>
+              <span id="red">o</span>
+              <span id="yellow">d</span>
+              <span id="blue">e</span>
+              <span id="green">o</span>
+              <span id="red">o</span>
+              <span id="blue">g</span>
+              <span id="yellow">l</span>
+              <span id="green">e</span>
+            </h1>
+          </div>
+
+          <div>
+            <SearchBar />
+          </div>
         </div>
-        <SearchBar />
       </header>
     </>
   );

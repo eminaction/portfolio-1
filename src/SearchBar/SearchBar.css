@@ -57,3 +57,14 @@
     margin-top: 10px;
   }
 }
+@media screen and (min-width: 359px) and (max-width: 429px) {
+  .search {
+    margin: 0;
+    max-width: 100%;
+    width: 90%;
+  }
+  .search-bar {
+    width: 70%;
+    margin-top: 10px;
+  }
+}

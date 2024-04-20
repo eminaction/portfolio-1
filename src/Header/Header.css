@@ -1,6 +1,6 @@
 header {
-  margin-top: 310px;
-  margin-bottom: 310px;
+  margin-top: 320px;
+  margin-bottom: 370px;
   max-width: 100%;
 }
 
@@ -26,5 +26,22 @@ header h1 {
   .main-header h1 {
     font-size: 70px;
     max-width: 100%;
+  }
+}
+@media screen and (min-width: 359px) and (max-width: 429px) {
+  .main-header h1 {
+    font-size: 50px;
+    max-width: 100%;
+    width: 90%;
+  }
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+  }
+  header {
+    margin-top: 250px;
+    margin-bottom: 250px;
   }
 }

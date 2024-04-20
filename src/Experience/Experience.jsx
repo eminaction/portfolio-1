@@ -63,10 +63,12 @@ export default function Experience() {
                 <br />
                 <br />
                 <br />
-                <span>Git</span>
-                <span>Node.js</span>
-                <span>SQL</span>
-                <span>Typescript</span>
+                <div className="container-3">
+                  <span>Git</span>
+                  <span>Node.js</span>
+                  <span>SQL</span>
+                  <span>Typescript</span>
+                </div>
                 {/* <p>HTML</p>
                 <p>CSS</p>
                 <p>Next.js</p> */}

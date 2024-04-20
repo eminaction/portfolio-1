@@ -145,3 +145,36 @@
     margin: 0 auto;
   }
 }
+@media screen and (min-width: 359px) and (max-width: 429px) {
+  .experience {
+    max-width: 95%;
+    height: 900px;
+  }
+  .experience h1 {
+    font-size: 20px;
+  }
+  .experience-sections {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .job-experience {
+    width: 90%;
+  }
+  .tech-stack {
+    width: 90%;
+  }
+  ul {
+    font-size: 13px;
+  }
+  .container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container-3 :nth-child(4) {
+    width: 100px;
+  }
+}
