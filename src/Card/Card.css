@@ -44,7 +44,7 @@
     object-fit: cover;
   }
 }
-@media screen and (min-width: 359px) and (max-width: 429px) {
+/* @media screen and (min-width: 359px) and (max-width: 429px) {
   .card {
     width: 100%;
     margin: 0 auto;
@@ -65,4 +65,4 @@
     font-size: 20px;
     text-align: left;
   }
-}
+} */

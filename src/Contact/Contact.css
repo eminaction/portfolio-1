@@ -71,7 +71,7 @@
     margin-right: 50px;
   }
 }
-@media screen and (min-width: 359px) and (max-width: 429px) {
+/* @media screen and (min-width: 359px) and (max-width: 429px) {
   .contact {
     width: 90%;
     height: 200px;
@@ -92,4 +92,4 @@
   .socials img {
     width: 20px;
   }
-}
+} */

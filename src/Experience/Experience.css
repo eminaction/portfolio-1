@@ -152,7 +152,7 @@
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 359px) and (max-width: 429px) {
+/* @media screen and (min-width: 359px) and (max-width: 429px) {
   .experience {
     max-width: 95%;
     height: 900px;
@@ -184,4 +184,4 @@
   .container-3 :nth-child(4) {
     width: 100px;
   }
-}
+} */

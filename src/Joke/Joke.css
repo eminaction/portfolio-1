@@ -8,8 +8,8 @@
 .failed-load {
   margin-top: 50px;
 }
-@media screen and (min-width: 359px) and (max-width: 429px) {
+/* @media screen and (min-width: 359px) and (max-width: 429px) {
   .joke-section {
     width: 80%;
   }
-}
+} */
