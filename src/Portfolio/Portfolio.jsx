@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 const cardData = [
   {
     id: 0,
-    href: "",
+    href: "https://github.com/eminaction/weather-app",
     imageSource: "/weather-app.png",
     header: "Weather Wizard",
     text: "Weather Wizard is an innovative app built with TypeScript and React that offers a seamless way for users to stay informed about the weather in any city. Users can easily input the name of a city, and the app will fetch current weather data from a reliable API to provide up-to-date information on temperature, humidity, and weather conditions. The user-friendly interface allows people to quickly access the information they need. Additionally, the app includes a feature for sharing weather updates with friends, making it easy to keep others in the loop about the current weather in their area.",
