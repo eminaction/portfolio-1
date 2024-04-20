@@ -83,6 +83,9 @@
 .tech-bubbles :nth-child(14) {
   font-weight: bold;
 }
+.container-3 :nth-child(4) {
+  font-weight: bold;
+}
 .cv {
   display: flex;
   justify-content: center;
