@@ -18,9 +18,9 @@ const cardData = [
   },
   {
     id: 0,
-    imageSource: "/Screenshot 2024-03-25 at 15.58.33.png",
+    imageSource: "/fireplace-palace.png",
     header: "Responsive Webpage using Next.js",
-    text: "The webpage my team and I created for a fireplace company leverages Next.js to offer a seamless and engaging user experience.The webpage was designed with a modern aesthetic to draw in the customer. Visitors can easily read customer reviews, using an api, to learn more about the company's reputation and product quality. We also integrated a user-friendly booking form, making it simple for potential customers to schedule a consultation with just a few clicks.",
+    text: "The webpage my team and I created for a fireplace company leverages Next.js using a mbile first appraoch to offer a seamless and engaging user experience.The webpage was designed with a modern aesthetic to draw in the customer. Visitors can easily read customer reviews, using an api, to learn more about the company's reputation and product quality. We also integrated a user-friendly booking form, making it simple for potential customers to schedule a consultation with just a few clicks.",
   },
 ];
 
