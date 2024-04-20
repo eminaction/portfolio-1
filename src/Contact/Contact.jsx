@@ -22,7 +22,11 @@ export default function Contact() {
               >
                 <img src="/linkedin-logo.png.jpeg" />
               </a>
-              <a className="git">
+              <a
+                href="https://github.com/eminaction"
+                target="_blank"
+                className="git"
+              >
                 <img src="https://static-00.iconduck.com/assets.00/github-inverted-icon-512x499-xwqq0y67.png" />
               </a>
             </div>
