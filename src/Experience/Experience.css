@@ -83,18 +83,25 @@
 .tech-bubbles :nth-child(14) {
   font-weight: bold;
 }
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
 .cv-button {
-  width: 100px;
-  height: 30px;
-  background-color: white;
+  width: 150px;
+  height: 40px;
   border: 2px black solid;
   border-radius: 20px;
   text-align: center;
   color: black;
   font-weight: bold;
-  float: right;
-  margin-right: 20px;
-  margin-top: 5px;
+  margin: auto;
+  font-size: 20px;
+  box-shadow: 4px 4px black;
+  color: white;
+  background-color: #34a853;
 }
 .columns {
   display: flex;

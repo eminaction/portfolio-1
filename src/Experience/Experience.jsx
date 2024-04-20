@@ -5,6 +5,14 @@ export default function Experience() {
     <>
       <div id="experience" className="experience">
         <h1>EXPERIENCE</h1>
+        <div className="cv">
+          <a
+            href="https://drive.google.com/file/d/16dD64fhPQtFD08ojThljao7nDVt9Ez8V/view?usp=sharing"
+            target="_blank"
+          >
+            <button className="cv-button">SEE CV</button>
+          </a>
+        </div>
         <div className="experience-sections">
           <div className="job-experience">
             <div className="job-header">Professional Experience</div>
@@ -41,12 +49,6 @@ export default function Experience() {
                 </div>
               </div>
             </div>
-            <a
-              href="https://drive.google.com/file/d/16dD64fhPQtFD08ojThljao7nDVt9Ez8V/view?usp=sharing"
-              target="_blank"
-            >
-              <button className="cv-button">SEE CV</button>
-            </a>
           </div>
           <div className="tech-stack">
             <div className="tech-header">Tech Stack</div>
