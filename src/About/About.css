@@ -18,11 +18,14 @@
   margin: 0 auto;
 }
 .about-info {
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 0 auto;
+}
+.about-text {
+  margin-top: 20px;
 }
 
 .about-img img {
