@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <div className="main-header">
+        <div id="header" className="main-header">
           <div>
             <h1>
               <span id="blue">C</span>

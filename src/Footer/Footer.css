@@ -1,0 +1,31 @@
+footer {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.top-button {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#myBtn {
+  border: none;
+  background-color: white;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+footer a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
