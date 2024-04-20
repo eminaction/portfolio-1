@@ -20,7 +20,7 @@ const cardData = [
     id: 0,
     imageSource: "/fireplace-palace.png",
     header: "Next.js Webpage",
-    text: "The webpage my team and I created for a fireplace company leverages Next.js using a mbile first appraoch to offer a seamless and engaging user experience.The webpage was designed with a modern aesthetic to draw in the customer. Visitors can easily read customer reviews, using an api, to learn more about the company's reputation and product quality. We also integrated a user-friendly booking form, making it simple for potential customers to schedule a consultation with just a few clicks.",
+    text: "The webpage my team and I created for a fireplace company leverages Next.js using a mobile first appraoch to offer a seamless and engaging user experience.The webpage was designed with a modern aesthetic to draw in the customer. Visitors can easily read customer reviews, using an api, to learn more about the company's reputation and product quality. We also integrated a user-friendly booking form, making it simple for potential customers to schedule a consultation with just a few clicks.",
   },
 ];
 
@@ -54,7 +54,7 @@ export default function Portfolio() {
               favourite hobbies. <br />
               <br />
               Introducing The Plant Bakery Co. An all plant-based cookbook of
-              all my favorutie sweet recipes! This app is made using wireframing
+              all my favourite sweet recipes! This app is made using wireframing
               and prototyping from Figma, and using Next.js.
             </p>
           </div>
