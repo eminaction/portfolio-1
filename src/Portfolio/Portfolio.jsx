@@ -42,7 +42,13 @@ export default function Portfolio() {
             />
           ))}
         </div>
-        <div className="current-project">
+      </div>
+    </>
+  );
+}
+
+{
+  /* <div className="current-project">
           <div className="sub-heading">
             <h3>PROJECT IN PROGRESS ...</h3>
             <br />
@@ -66,8 +72,5 @@ export default function Portfolio() {
               <img src="/recipes-app2.png" />
             </a>
           </div>
-        </div>
-      </div>
-    </>
-  );
+        </div> */
 }
